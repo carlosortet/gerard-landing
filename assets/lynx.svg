@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="#22C55E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Head outline -->
+  <path d="M32 16 Q22 18 18 26 Q16 32 18 38 Q22 44 32 46 Q42 44 46 38 Q48 32 46 26 Q42 18 32 16"/>
+
+  <!-- Ear tufts (characteristic of lynx) -->
+  <path d="M20 18 L16 8 L22 16"/>
+  <path d="M44 18 L48 8 L42 16"/>
+  <line x1="16" y1="8" x2="14" y2="4" opacity="0.7"/>
+  <line x1="48" y1="8" x2="50" y2="4" opacity="0.7"/>
+
+  <!-- Eyes -->
+  <ellipse cx="26" cy="28" rx="3" ry="4"/>
+  <ellipse cx="38" cy="28" rx="3" ry="4"/>
+  <circle cx="26" cy="28" r="1.5" fill="#22C55E"/>
+  <circle cx="38" cy="28" r="1.5" fill="#22C55E"/>
+
+  <!-- Nose -->
+  <path d="M30 34 Q32 36 34 34 Q32 38 30 34"/>
+
+  <!-- Mouth -->
+  <path d="M32 38 L32 40"/>
+  <path d="M28 42 Q32 44 36 42"/>
+
+  <!-- Whiskers -->
+  <line x1="18" y1="34" x2="8" y2="32" opacity="0.6"/>
+  <line x1="18" y1="36" x2="8" y2="38" opacity="0.6"/>
+  <line x1="46" y1="34" x2="56" y2="32" opacity="0.6"/>
+  <line x1="46" y1="36" x2="56" y2="38" opacity="0.6"/>
+
+  <!-- Beard (characteristic of Iberian lynx) -->
+  <path d="M22 44 Q20 50 18 54" opacity="0.7"/>
+  <path d="M26 46 Q26 52 24 56" opacity="0.7"/>
+  <path d="M42 44 Q44 50 46 54" opacity="0.7"/>
+  <path d="M38 46 Q38 52 40 56" opacity="0.7"/>
+
+  <!-- Fur pattern spots -->
+  <circle cx="24" cy="22" r="1" opacity="0.4"/>
+  <circle cx="40" cy="22" r="1" opacity="0.4"/>
+  <circle cx="22" cy="38" r="1" opacity="0.4"/>
+  <circle cx="42" cy="38" r="1" opacity="0.4"/>
+</svg>

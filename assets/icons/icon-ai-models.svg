@@ -1,0 +1,14 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="32" cy="32" r="8" stroke="currentColor" stroke-width="2"/>
+  <circle cx="32" cy="12" r="5" stroke="currentColor" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="32" cy="52" r="5" stroke="currentColor" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="12" cy="32" r="5" stroke="currentColor" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="52" cy="32" r="5" stroke="currentColor" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="17" cy="17" r="4" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="47" cy="17" r="4" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="17" cy="47" r="4" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+  <circle cx="47" cy="47" r="4" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+  <path d="M32 24V17M32 40V47" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+  <path d="M24 32H17M40 32H47" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+  <path d="M26 26L21 21M38 26L43 21M26 38L21 43M38 38L43 43" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
+</svg>

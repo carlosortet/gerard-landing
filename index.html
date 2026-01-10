@@ -12,6 +12,9 @@
   <meta property="og:description" content="Transform market research from weeks to hours. AI-powered R&D built on GEORadar technology.">
   <meta property="og:type" content="website">
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/webp" href="assets/cats/cat-rocket.webp">
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +22,9 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Lottie Player -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 <body>
 
@@ -26,6 +32,7 @@
   <nav class="nav">
     <div class="container nav-container">
       <a href="#" class="nav-logo">
+        <img src="assets/favicon.svg" alt="GERARD" class="nav-logo-icon">
         <span class="logo-text">GERARD</span>
       </a>
       <ul class="nav-links">
@@ -41,7 +48,33 @@
   <!-- Hero Section -->
   <section id="hero" class="hero">
     <div class="hero-bg"></div>
+    <!-- Speed particles background -->
+    <div class="speed-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
     <div class="container hero-content">
+      <!-- Constellation Animation -->
+      <div class="hero-constellation">
+        <lottie-player
+          src="https://assets-v2.lottiefiles.com/a/f8108d38-1153-11ee-a993-4be587da643c/C21oIICWHO.json"
+          background="transparent"
+          speed="0.5"
+          style="width: 300px; height: 300px;"
+          loop
+          autoplay>
+        </lottie-player>
+      </div>
+      <!-- Animated Logo -->
+      <div class="hero-logo">
+        <img src="assets/gerard-logo-animated.svg" alt="GERARD Logo" class="hero-logo-img">
+      </div>
       <span class="section-tag">GERARD — Generative Research And Rapid Development</span>
       <h1 class="hero-title">From weeks of research to insights in hours</h1>
       <p class="hero-subtitle">Traditional market research takes 4-8 weeks and costs $50K-$200K. GERARD delivers enterprise-grade R&D at 10x the speed and 10x lower cost—powered by synthetic personas, multi-agent AI, and the proven <a href="https://georadar.app" target="_blank" class="link-accent">GEORadar</a> engine.</p>
@@ -97,19 +130,58 @@
 
       <div class="metrics-showcase">
         <div class="metric">
-          <span class="metric-value">24-48h</span>
-          <span class="metric-label">Time to Insight</span>
-          <span class="metric-comparison">vs 4-8 weeks</span>
+          <div class="metric-icon metric-icon-green">
+            <svg width="48" height="48" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="32" cy="32" r="24" opacity="0.3"/>
+              <circle cx="32" cy="32" r="16" opacity="0.5"/>
+              <path d="M32 12V20" stroke-linecap="round"/>
+              <path d="M32 44V52" stroke-linecap="round"/>
+              <path d="M12 32H20" stroke-linecap="round"/>
+              <path d="M44 32H52" stroke-linecap="round"/>
+              <path d="M32 32L44 20" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="32" cy="32" r="4" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="metric-content">
+            <span class="metric-value">24-48h</span>
+            <span class="metric-label">Time to Insight</span>
+            <span class="metric-comparison">vs 4-8 weeks</span>
+          </div>
         </div>
         <div class="metric">
-          <span class="metric-value">€4K-€25K</span>
-          <span class="metric-label">Cost per Project</span>
-          <span class="metric-comparison">vs $50K-$200K</span>
+          <div class="metric-icon metric-icon-teal">
+            <svg width="48" height="48" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="32" cy="32" r="24" opacity="0.3"/>
+              <path d="M32 16V48" stroke-linecap="round"/>
+              <path d="M24 24C24 24 26 20 32 20C38 20 42 24 42 28C42 32 38 34 32 34C26 34 22 36 22 40C22 44 26 48 32 48C38 48 40 44 40 44" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="metric-content">
+            <span class="metric-value">€4K-€25K</span>
+            <span class="metric-label">Cost per Project</span>
+            <span class="metric-comparison">vs $50K-$200K</span>
+          </div>
         </div>
         <div class="metric">
-          <span class="metric-value">15+</span>
-          <span class="metric-label">LLMs Monitored</span>
-          <span class="metric-comparison">via GEORadar</span>
+          <div class="metric-icon metric-icon-blue">
+            <svg width="48" height="48" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="32" cy="32" r="7" stroke-width="2"/>
+              <circle cx="32" cy="12" r="4" stroke-width="1.5" opacity="0.8"/>
+              <circle cx="32" cy="52" r="4" stroke-width="1.5" opacity="0.8"/>
+              <circle cx="12" cy="32" r="4" stroke-width="1.5" opacity="0.8"/>
+              <circle cx="52" cy="32" r="4" stroke-width="1.5" opacity="0.8"/>
+              <circle cx="18" cy="18" r="3" stroke-width="1.5" opacity="0.6"/>
+              <circle cx="46" cy="18" r="3" stroke-width="1.5" opacity="0.6"/>
+              <circle cx="18" cy="46" r="3" stroke-width="1.5" opacity="0.6"/>
+              <circle cx="46" cy="46" r="3" stroke-width="1.5" opacity="0.6"/>
+              <path d="M32 25V16M32 39V48M25 32H16M39 32H48" stroke-width="1" opacity="0.4"/>
+            </svg>
+          </div>
+          <div class="metric-content">
+            <span class="metric-value">15+</span>
+            <span class="metric-label">LLMs Monitored</span>
+            <span class="metric-comparison">via GEORadar</span>
+          </div>
         </div>
       </div>
     </div>
@@ -181,6 +253,157 @@
         <p class="integration-description">GERARD integrates seamlessly with GEORadar, S.A.M. (Semantic Alignment Machine), and Prompt Atlas. The complete <a href="https://498as.com" target="_blank" class="link-accent">498AS</a> intelligence stack.</p>
         <a href="https://georadar.app" target="_blank" class="btn btn-outline">Explore GEORadar →</a>
       </div>
+    </div>
+  </section>
+
+  <!-- The Engine Section - Deep Methodology -->
+  <section id="engine" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Under the Hood</span>
+        <h2 class="section-title">R&D on steroids: The simulation environment you've always dreamed of</h2>
+        <p class="section-subtitle">GERARD transforms massive market data into actionable intelligence through a rigorous, AI-powered methodology that democratizes enterprise-grade R&D.</p>
+      </div>
+
+      <!-- Pipeline Visual -->
+      <div class="engine-pipeline">
+
+        <!-- Stage 1: Data Ingestion -->
+        <div class="engine-stage">
+          <div class="stage-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="24" cy="24" r="20" opacity="0.3"/>
+              <path d="M12 24h24M24 12v24" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="8"/>
+              <circle cx="24" cy="8" r="3" fill="currentColor" opacity="0.6"/>
+              <circle cx="24" cy="40" r="3" fill="currentColor" opacity="0.6"/>
+              <circle cx="8" cy="24" r="3" fill="currentColor" opacity="0.6"/>
+              <circle cx="40" cy="24" r="3" fill="currentColor" opacity="0.6"/>
+            </svg>
+          </div>
+          <div class="stage-number">01</div>
+          <h3 class="stage-title">Market Data Ingestion</h3>
+          <p class="stage-description">We ingest high-volume datasets: industry reports, competitor content, social signals, patent filings, job postings, and real-time market indicators. Structured and unstructured data unified into a semantic knowledge graph.</p>
+          <div class="stage-metrics">
+            <span class="stage-metric">500K+ data points per study</span>
+            <span class="stage-metric">15+ source types</span>
+          </div>
+        </div>
+
+        <div class="pipeline-connector">
+          <svg width="40" height="24" viewBox="0 0 40 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M0 12h32M24 4l8 8-8 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+          </svg>
+        </div>
+
+        <!-- Stage 2: Persona Modeling -->
+        <div class="engine-stage">
+          <div class="stage-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="24" cy="16" r="8"/>
+              <path d="M12 40c0-8 5-12 12-12s12 4 12 12" stroke-linecap="round"/>
+              <circle cx="10" cy="20" r="5" opacity="0.4"/>
+              <circle cx="38" cy="20" r="5" opacity="0.4"/>
+              <path d="M6 36c0-5 2-8 6-9" opacity="0.4" stroke-linecap="round"/>
+              <path d="M42 36c0-5-2-8-6-9" opacity="0.4" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="stage-number">02</div>
+          <h3 class="stage-title">Synthetic Persona Modeling</h3>
+          <p class="stage-description">We build statistically validated customer personas—not stereotypes, but data-driven behavioral models. Each persona represents a market segment with calibrated preferences, pain points, and decision patterns.</p>
+          <div class="stage-metrics">
+            <span class="stage-metric">1,000+ personas per market</span>
+            <span class="stage-metric">87% prediction accuracy</span>
+          </div>
+        </div>
+
+        <div class="pipeline-connector">
+          <svg width="40" height="24" viewBox="0 0 40 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M0 12h32M24 4l8 8-8 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+          </svg>
+        </div>
+
+        <!-- Stage 3: Market Simulation -->
+        <div class="engine-stage">
+          <div class="stage-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="8" y="8" width="32" height="32" rx="4" opacity="0.3"/>
+              <circle cx="16" cy="16" r="3" fill="currentColor" opacity="0.6"/>
+              <circle cx="32" cy="16" r="3" fill="currentColor" opacity="0.6"/>
+              <circle cx="16" cy="32" r="3" fill="currentColor" opacity="0.6"/>
+              <circle cx="32" cy="32" r="3" fill="currentColor" opacity="0.6"/>
+              <circle cx="24" cy="24" r="4" fill="currentColor"/>
+              <path d="M16 16l8 8m0-8l-8 8m8 0l8 8m0-8l-8 8" opacity="0.4" stroke-dasharray="2 2"/>
+            </svg>
+          </div>
+          <div class="stage-number">03</div>
+          <h3 class="stage-title">Market Simulation Engine</h3>
+          <p class="stage-description">The simulation runs thousands of scenarios: personas interact with products, messaging, and pricing. We map the entire competitive landscape—who occupies which position, where the white spaces are, and how the market will evolve.</p>
+          <div class="stage-metrics">
+            <span class="stage-metric">10,000+ simulations</span>
+            <span class="stage-metric">Multi-dimensional mapping</span>
+          </div>
+        </div>
+
+        <div class="pipeline-connector">
+          <svg width="40" height="24" viewBox="0 0 40 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M0 12h32M24 4l8 8-8 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+          </svg>
+        </div>
+
+        <!-- Stage 4: Opportunity Discovery -->
+        <div class="engine-stage">
+          <div class="stage-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="24" cy="24" r="18" opacity="0.2"/>
+              <path d="M24 6v4M24 38v4M6 24h4M38 24h4" stroke-linecap="round" opacity="0.4"/>
+              <circle cx="24" cy="24" r="10" stroke-dasharray="4 2"/>
+              <circle cx="30" cy="18" r="4" fill="currentColor" opacity="0.8"/>
+              <path d="M24 24l6-6" stroke-width="2"/>
+              <text x="36" y="16" font-size="8" fill="currentColor" opacity="0.6">★</text>
+            </svg>
+          </div>
+          <div class="stage-number">04</div>
+          <h3 class="stage-title">Blue Ocean Discovery</h3>
+          <p class="stage-description">AI identifies the gaps: unserved segments, underperforming competitors, emerging needs. We quantify each opportunity by market size, competitive intensity, and fit with your capabilities. Data-backed blue oceans, not hunches.</p>
+          <div class="stage-metrics">
+            <span class="stage-metric">Opportunity scoring</span>
+            <span class="stage-metric">TAM/SAM/SOM modeling</span>
+          </div>
+        </div>
+
+        <div class="pipeline-connector">
+          <svg width="40" height="24" viewBox="0 0 40 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M0 12h32M24 4l8 8-8 8" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
+          </svg>
+        </div>
+
+        <!-- Stage 5: Product Design -->
+        <div class="engine-stage">
+          <div class="stage-icon">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M24 8l16 10v12L24 40 8 30V18L24 8z"/>
+              <path d="M24 8v32M8 18l16 10 16-10" opacity="0.4"/>
+              <circle cx="24" cy="24" r="6" fill="currentColor" opacity="0.3"/>
+              <circle cx="24" cy="24" r="3" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="stage-number">05</div>
+          <h3 class="stage-title">Attribute Cluster Design</h3>
+          <p class="stage-description">We don't just find opportunities—we design the solution. GERARD generates attribute clusters that define winning products: feature combinations, positioning statements, and value propositions optimized for the identified market space.</p>
+          <div class="stage-metrics">
+            <span class="stage-metric">Feature prioritization</span>
+            <span class="stage-metric">Go-to-market blueprints</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom statement -->
+      <div class="engine-statement">
+        <p class="statement-text">This is <strong>R&D at scale</strong>—the simulation environment that was previously only available to Fortune 100 companies with $10M+ research budgets. GERARD democratizes it with AI inference, making enterprise-grade market intelligence accessible to any ambitious team.</p>
+      </div>
+
     </div>
   </section>
 
@@ -305,9 +528,21 @@
       </div>
 
       <div class="transformation-footer">
-        <p>From weeks to hours.</p>
-        <p>From $200K to €4K.</p>
-        <p>From guessing to knowing.</p>
+        <div class="transformation-phrase">
+          <span class="phrase-before">From weeks</span>
+          <span class="phrase-arrow">→</span>
+          <span class="phrase-after">to hours</span>
+        </div>
+        <div class="transformation-phrase">
+          <span class="phrase-before">From $200K</span>
+          <span class="phrase-arrow">→</span>
+          <span class="phrase-after">to €4K</span>
+        </div>
+        <div class="transformation-phrase">
+          <span class="phrase-before">From guessing</span>
+          <span class="phrase-arrow">→</span>
+          <span class="phrase-after">to knowing</span>
+        </div>
       </div>
     </div>
   </section>
@@ -396,12 +631,21 @@
 
   <!-- Final CTA Section -->
   <section id="contact" class="section cta-section">
-    <div class="container">
+    <!-- Speed particles background -->
+    <div class="speed-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+    <div class="container cta-content">
       <h2 class="cta-title">Turn R&D from weeks to hours</h2>
       <p class="cta-subtitle">Join enterprise leaders using GERARD to make faster, smarter decisions. Request a demo to see how AI-powered research transforms your competitive intelligence.</p>
       <div class="btn-group">
         <a href="mailto:hello@498as.com?subject=GERARD Demo Request" class="btn btn-primary btn-large">Request Demo</a>
-        <a href="https://georadar.app" target="_blank" class="btn btn-secondary btn-large">Explore GEORadar →</a>
+        <a href="https://georadar.app" target="_blank" class="btn btn-secondary btn-large">Discover Our Tech →</a>
       </div>
       <p class="cta-note">Enterprise-ready | GDPR Compliant | Built on GEORadar</p>
     </div>
@@ -412,7 +656,9 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-brand">
-          <span class="footer-logo">GERARD</span>
+          <div class="footer-logo">
+            <span>GERARD</span>
+          </div>
           <p class="footer-tagline">The Generative R&D Platform</p>
         </div>
 
@@ -434,6 +680,14 @@
             </ul>
           </div>
         </div>
+
+        <div class="footer-mascot">
+          <img src="assets/cats/cat-dabbing.webp" alt="GERARD mascot" class="mascot-img">
+          <div class="mascot-speech">
+            <span class="mascot-label">GERARD says:</span>
+            <span class="mascot-phrase">"Kaboom! R&D at lightspeed."</span>
+          </div>
+        </div>
       </div>
 
       <div class="footer-bottom">
@@ -441,6 +695,26 @@
       </div>
     </div>
   </footer>
+
+  <!-- FAQ Toggle Script -->
+  <script>
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        const item = question.parentElement;
+        const isActive = item.classList.contains('active');
+
+        // Close all other FAQs
+        document.querySelectorAll('.faq-item').forEach(faq => {
+          faq.classList.remove('active');
+        });
+
+        // Toggle current
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
 
 </body>
 </html>

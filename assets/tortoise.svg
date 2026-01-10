@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="#EF4444" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Shell -->
+  <ellipse cx="32" cy="32" rx="18" ry="14" opacity="0.8"/>
+
+  <!-- Shell pattern -->
+  <path d="M32 18 L32 46" opacity="0.5"/>
+  <path d="M20 26 Q32 32 44 26" opacity="0.5"/>
+  <path d="M20 38 Q32 32 44 38" opacity="0.5"/>
+
+  <!-- Head -->
+  <circle cx="52" cy="34" r="5"/>
+  <circle cx="54" cy="33" r="1" fill="#EF4444"/>
+
+  <!-- Front legs -->
+  <path d="M46 40 Q50 46 48 50"/>
+  <path d="M46 26 Q50 20 48 16"/>
+
+  <!-- Back legs -->
+  <path d="M18 40 Q14 46 16 50"/>
+  <path d="M18 26 Q14 20 16 16"/>
+
+  <!-- Tail -->
+  <path d="M14 34 Q10 34 8 32"/>
+</svg>

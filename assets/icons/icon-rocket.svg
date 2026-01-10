@@ -1,0 +1,22 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rocket body -->
+  <path d="M60 16C60 16 76 32 76 56C76 72 68 84 60 92C52 84 44 72 44 56C44 32 60 16 60 16Z" stroke="currentColor" stroke-width="2.5" fill="none"/>
+  <!-- Nose cone highlight -->
+  <path d="M60 16C60 16 68 28 68 44" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
+  <!-- Window -->
+  <circle cx="60" cy="48" r="8" stroke="currentColor" stroke-width="2"/>
+  <circle cx="60" cy="48" r="4" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+  <!-- Fins -->
+  <path d="M44 72L32 88L44 80" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M76 72L88 88L76 80" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Exhaust flames -->
+  <path d="M52 92C52 92 56 100 60 108C64 100 68 92 68 92" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M56 92C56 92 58 96 60 102C62 96 64 92 64 92" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Speed lines -->
+  <path d="M28 40L20 44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <path d="M24 52L14 54" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <path d="M26 64L16 68" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
+  <path d="M92 40L100 44" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+  <path d="M96 52L106 54" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
+  <path d="M94 64L104 68" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
+</svg>

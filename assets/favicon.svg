@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <radialGradient id="coronaFav" cx="50%" cy="50%" r="50%">
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="70%" stop-color="#22C55E" stop-opacity="0.9"/>
+      <stop offset="90%" stop-color="#3B82F6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonFav" cx="35%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Corona -->
+  <circle cx="16" cy="16" r="15" fill="url(#coronaFav)"/>
+
+  <!-- Moon -->
+  <circle cx="16" cy="16" r="10" fill="url(#moonFav)"/>
+  <circle cx="16" cy="16" r="10" fill="none" stroke="#22C55E" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- Diamond ring -->
+  <circle cx="23" cy="9" r="2" fill="#FFFFFF" opacity="0.95"/>
+</svg>
