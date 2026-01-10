@@ -1,0 +1,278 @@
+{
+  "lang": "en",
+  "meta": {
+    "title": "GERARD | The Generative R&D Platform",
+    "description": "Transform market research from weeks to hours. GERARD combines AI-powered synthetic personas with real validation for enterprise-grade R&D. Built on GEORadar technology by 498AS.",
+    "keywords": "generative AI, market research, R&D platform, synthetic personas, enterprise research, competitive intelligence, GEORadar, 498AS"
+  },
+  "nav": {
+    "benefits": "Benefits",
+    "howItWorks": "How It Works",
+    "features": "Features",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Request Demo"
+  },
+  "hero": {
+    "tag": "GERARD — Generative Research And Rapid Development",
+    "title": "From weeks of research to insights in hours",
+    "subtitle": "Traditional market research takes 4-8 weeks and costs $50K-$200K. GERARD delivers enterprise-grade R&D at 10x the speed and 10x lower cost—powered by synthetic personas, multi-agent AI, and the proven GEORadar engine.",
+    "buttons": [
+      {"text": "Request Demo", "href": "#contact", "variant": "primary"},
+      {"text": "See How It Works", "href": "#how-it-works", "variant": "secondary"},
+      {"text": "Explore Our Tech", "href": "https://georadar.app", "variant": "secondary"}
+    ],
+    "trustedBy": "Built on GEORadar technology, trusted by enterprise clients"
+  },
+  "sections": {
+    "benefits": {
+      "tag": "What GERARD Does For You",
+      "title": "R&D that moves at the speed of your business",
+      "subtitle": "Synthetic personas + Real validation + GEORadar intelligence = Research you can trust, delivered fast",
+      "features": [
+        {
+          "icon": "⚡",
+          "title": "10x Faster Insights",
+          "description": "What takes traditional firms 4-8 weeks, GERARD delivers in 24-48 hours. Multi-agent orchestration runs parallel research streams while you focus on decisions."
+        },
+        {
+          "icon": "💰",
+          "title": "10x Lower Cost",
+          "description": "Enterprise research at mid-market prices. Projects that cost $50K-$200K with legacy firms now range €4K-€25K. Fortune 500 quality, democratized."
+        },
+        {
+          "icon": "🎯",
+          "title": "Validated Synthetic Personas",
+          "description": "Not just AI hallucinations. GERARD's synthetic personas are validated against real data, combining the speed of simulation with the rigor of traditional methods."
+        }
+      ],
+      "metricsTitle": "Real impact metrics",
+      "metrics": [
+        {"label": "Time to Insight", "value": "24-48h", "comparison": "vs 4-8 weeks"},
+        {"label": "Cost per Project", "value": "€4K-€25K", "comparison": "vs $50K-$200K"},
+        {"label": "LLMs Monitored", "value": "15+", "comparison": "via GEORadar"}
+      ]
+    },
+    "differential": {
+      "tag": "Why GERARD Is Different",
+      "title": "From R&D as a gamble to R&D as a science",
+      "items": [
+        {
+          "title": "GEO DNA Built-In",
+          "description": "GERARD is the only platform that combines Generative Engine Optimization with market research. Powered by GEORadar's 15+ LLM models and 8 proprietary metrics, we understand how AI interprets your market."
+        },
+        {
+          "title": "Enterprise-Grade from Day One",
+          "description": "Not a B2C toy. GERARD serves banking clients like Sabadell, CaixaBank, and Adeslas. Enterprise SLA, SOC2 ready, designed for regulated industries."
+        },
+        {
+          "title": "European AI, GDPR by Design",
+          "description": "EU-hosted infrastructure, GDPR-compliant by design. Local support in Spanish, English, and German. Built for European enterprises, by a European company."
+        },
+        {
+          "title": "Hybrid Validation Methodology",
+          "description": "Synthetic speed meets real rigor. Every insight is scored for confidence, validated against real samples, and cited with sources. No black boxes."
+        },
+        {
+          "title": "Continuous Intelligence",
+          "description": "Not just one-off projects. GERARD monitors your competitive landscape 24/7, delivering proactive alerts and predictive insights before you ask."
+        }
+      ]
+    },
+    "howItWorks": {
+      "tag": "How GERARD Works",
+      "title": "From question to validated insight in 3 steps",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Define Your Research Question",
+          "description": "Tell GERARD what you need to know—market opportunity, competitor analysis, customer personas, or product validation. Our multi-agent planner structures the optimal research approach."
+        },
+        {
+          "number": "2",
+          "title": "AI Agents Execute Research",
+          "description": "Specialized agents work in parallel: collectors gather data, analyzers extract patterns, synthetic personas simulate focus groups. All validated through RAG and GEORadar intelligence."
+        },
+        {
+          "number": "3",
+          "title": "Receive Actionable Insights",
+          "description": "Not just data—recommendations. GERARD delivers confidence-scored insights with citations, competitive positioning maps, and specific next steps. Ready for your board deck."
+        }
+      ],
+      "integration": {
+        "title": "Powered by the GEORadar Suite",
+        "description": "GERARD integrates seamlessly with GEORadar, S.A.M. (Semantic Alignment Machine), and Prompt Atlas. The complete 498AS intelligence stack.",
+        "link": "https://georadar.app"
+      }
+    },
+    "featureSet": {
+      "tag": "Feature Set",
+      "title": "Complete R&D capabilities in one platform",
+      "features": [
+        {"title": "Synthetic Personas", "description": "Simulate focus groups and interviews with AI personas validated against real demographics."},
+        {"title": "Multi-Agent Research", "description": "Specialized agents collaborate: planner, collector, analyzer, and QA working in parallel."},
+        {"title": "RAG + Citations", "description": "Every insight grounded in data with full source citations. No hallucinations."},
+        {"title": "Confidence Scoring", "description": "Know how reliable each insight is with transparent confidence metrics."},
+        {"title": "Competitive Intelligence", "description": "Track competitors across 15+ LLM models. Know what AI says about your market."},
+        {"title": "Continuous Monitoring", "description": "24/7 alerts on market changes, competitor moves, and emerging opportunities."},
+        {"title": "Enterprise Integrations", "description": "API access, Slack alerts, PDF reports, and dashboard visualizations."},
+        {"title": "Multi-Language", "description": "Research and reports in English, Spanish, German, French, and more."},
+        {"title": "GDPR Compliant", "description": "EU data residency, PII redaction, compliant with EU AI Act requirements."}
+      ]
+    },
+    "testimonials": {
+      "tag": "Trusted by Enterprise",
+      "title": "What our clients say",
+      "items": [
+        {
+          "quote": "GERARD transformed our competitive intelligence process. What used to take our strategy team 6 weeks now takes 2 days, with deeper insights.",
+          "author": "Head of Strategy",
+          "company": "Financial Services, IBEX 35"
+        },
+        {
+          "quote": "The synthetic persona validation was the game-changer. We can test messaging across 10,000 simulated customers before a single real focus group.",
+          "author": "CMO",
+          "company": "Retail Technology"
+        },
+        {
+          "quote": "Finally, research that moves at the speed of our product cycles. GEORadar integration means we understand not just what customers say, but how AI represents us.",
+          "author": "VP Product",
+          "company": "SaaS Platform"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "tag": "Before and After",
+      "title": "Before and after GERARD",
+      "before": {
+        "title": "Traditional R&D",
+        "items": [
+          "4-8 weeks per research project",
+          "$50K-$200K per study",
+          "Only accessible to Fortune 500",
+          "Insights outdated by delivery",
+          "Black box methodology",
+          "Point-in-time snapshots only",
+          "Generic, horizontal insights",
+          "Manual synthesis required"
+        ]
+      },
+      "after": {
+        "title": "With GERARD",
+        "items": [
+          "24-48 hours to validated insights",
+          "€4K-€25K per project",
+          "Democratized for mid-market",
+          "Real-time, always current",
+          "Transparent confidence scoring",
+          "Continuous monitoring 24/7",
+          "Vertical specialization with GEO DNA",
+          "Actionable recommendations included"
+        ]
+      },
+      "footer": [
+        "From weeks to hours.",
+        "From $200K to €4K.",
+        "From guessing to knowing."
+      ]
+    },
+    "useCases": {
+      "tag": "Who GERARD Is For",
+      "title": "Use cases",
+      "cases": [
+        {
+          "title": "Strategy & Innovation Teams",
+          "description": "Validate market opportunities, assess competitive threats, and inform product roadmaps with rapid, reliable research."
+        },
+        {
+          "title": "Marketing & Brand Leaders",
+          "description": "Test messaging, understand customer personas, and track brand perception across AI platforms and traditional channels."
+        },
+        {
+          "title": "Product Managers",
+          "description": "From concept validation to feature prioritization. Synthetic user testing at scale before committing resources."
+        },
+        {
+          "title": "Research & Consulting Agencies",
+          "description": "Augment your team with AI-powered research. White-label options available for agency partners."
+        },
+        {
+          "title": "Corporate Development & M&A",
+          "description": "Due diligence accelerated. Market sizing, competitive landscape, and target company analysis in days, not months."
+        },
+        {
+          "title": "Executive Leadership",
+          "description": "Board-ready insights with confidence scoring. Make strategic decisions backed by validated intelligence."
+        }
+      ]
+    },
+    "faq": {
+      "tag": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "What is GERARD?",
+          "answer": "GERARD (Generative Research And Rapid Development) is an AI-powered R&D platform that combines synthetic persona simulation, multi-agent research orchestration, and the GEORadar intelligence engine to deliver enterprise-grade market research 10x faster and at 10x lower cost than traditional methods."
+        },
+        {
+          "question": "How does GERARD relate to GEORadar?",
+          "answer": "GERARD is built on top of 498AS's GEORadar platform, which monitors 15+ LLM models and provides 8 proprietary metrics for Generative Engine Optimization. GERARD extends this capability into market research, competitive intelligence, and synthetic persona simulation."
+        },
+        {
+          "question": "Are synthetic personas reliable?",
+          "answer": "Yes. GERARD's synthetic personas are not random AI generation—they're validated against real demographic data and behavioral patterns. Every synthetic insight includes a confidence score, and we offer hybrid validation with real sample confirmation for critical decisions."
+        },
+        {
+          "question": "Is GERARD GDPR compliant?",
+          "answer": "Absolutely. GERARD is EU-hosted (AWS Frankfurt), GDPR-compliant by design, with PII redaction capabilities and alignment with EU AI Act requirements. We serve regulated industries including banking and healthcare."
+        },
+        {
+          "question": "What's the typical project cost?",
+          "answer": "Projects range from €4K-€25K depending on scope, compared to $50K-$200K for traditional research firms. We also offer monthly subscriptions starting at €1,500/month for ongoing research needs."
+        },
+        {
+          "question": "How fast can I get results?",
+          "answer": "Most research projects deliver validated insights within 24-48 hours. Complex, multi-phase studies may take 3-5 days. Compare this to the 4-8 weeks typical of traditional research firms."
+        },
+        {
+          "question": "Can GERARD integrate with our existing tools?",
+          "answer": "Yes. GERARD offers REST API access, Slack integration for alerts, PDF report generation, and can export to common BI tools. Enterprise customers get dedicated integration support."
+        },
+        {
+          "question": "Who is 498AS?",
+          "answer": "498AS is the Barcelona-based technology company behind GERARD, GEORadar, and the complete GEO Suite. We serve enterprise clients including major Spanish banks, media companies, and retail brands. Learn more at 498as.com."
+        }
+      ]
+    },
+    "finalCTA": {
+      "title": "Turn R&D from weeks to hours",
+      "subtitle": "Join enterprise leaders using GERARD to make faster, smarter decisions. Request a demo to see how AI-powered research transforms your competitive intelligence.",
+      "buttons": [
+        {"text": "Request Demo", "href": "#contact", "variant": "primary"},
+        {"text": "Explore Our Tech", "href": "https://georadar.app", "variant": "secondary"}
+      ],
+      "note": "Enterprise-ready | GDPR Compliant | Built on GEORadar"
+    }
+  },
+  "footer": {
+    "logo": "GERARD",
+    "tagline": "The Generative R&D Platform",
+    "company": {
+      "name": "498AS",
+      "url": "https://498as.com",
+      "description": "Generative Engine Optimization & AI Research"
+    },
+    "products": [
+      {"name": "GEORadar", "url": "https://georadar.app"},
+      {"name": "GERARD", "url": "#"},
+      {"name": "S.A.M.", "url": "#"},
+      {"name": "Prompt Atlas", "url": "#"}
+    ],
+    "contact": {
+      "email": "hello@498as.com",
+      "location": "Barcelona, Spain"
+    },
+    "copyright": "© 2026 498AS. All rights reserved."
+  }
+}
