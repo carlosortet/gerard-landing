@@ -39,7 +39,7 @@
         {
           "icon": "💰",
           "title": "10x Lower Cost",
-          "description": "Enterprise research at mid-market prices. Projects that cost $50K-$200K with legacy firms now range €4K-€25K. Fortune 500 quality, democratized."
+          "description": "Enterprise research at mid-market prices. Projects that cost $50K-$200K with legacy firms now range €5K-€35K. Fortune 500 quality, democratized."
         },
         {
           "icon": "🎯",
@@ -50,7 +50,7 @@
       "metricsTitle": "Real impact metrics",
       "metrics": [
         {"label": "Time to Insight", "value": "24-48h", "comparison": "vs 4-8 weeks"},
-        {"label": "Cost per Project", "value": "€4K-€25K", "comparison": "vs $50K-$200K"},
+        {"label": "Cost per Project", "value": "€5K-€35K", "comparison": "vs $50K-$200K"},
         {"label": "LLMs Monitored", "value": "15+", "comparison": "via GEORadar"}
       ]
     },
@@ -162,7 +162,7 @@
         "title": "With GERARD",
         "items": [
           "24-48 hours to validated insights",
-          "€4K-€25K per project",
+          "€5K-€35K per project",
           "Democratized for mid-market",
           "Real-time, always current",
           "Transparent confidence scoring",
@@ -229,7 +229,7 @@
         },
         {
           "question": "What's the typical project cost?",
-          "answer": "Projects range from €4K-€25K depending on scope, compared to $50K-$200K for traditional research firms. We also offer monthly subscriptions starting at €1,500/month for ongoing research needs."
+          "answer": "Projects range from €5K-€35K depending on scope, compared to $50K-$200K for traditional research firms. We also offer monthly subscriptions starting at €1,500/month for ongoing research needs."
         },
         {
           "question": "How fast can I get results?",
