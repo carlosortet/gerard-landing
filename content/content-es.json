@@ -1,0 +1,328 @@
+{
+  "lang": "es",
+  "meta": {
+    "title": "GERARD | La Plataforma de I+D Generativa",
+    "description": "Transforma la investigación de mercado de semanas a horas. GERARD combina personas sintéticas potenciadas por IA con validación real para I+D de nivel enterprise. Desarrollado sobre tecnología GEORadar por 498AS.",
+    "keywords": "IA generativa, investigación de mercado, plataforma I+D, personas sintéticas, research enterprise, inteligencia competitiva, GEORadar, 498AS"
+  },
+  "nav": {
+    "benefits": "Beneficios",
+    "howItWorks": "Cómo Funciona",
+    "features": "Funcionalidades",
+    "testimonials": "Testimonios",
+    "faq": "FAQ",
+    "contact": "Contacto",
+    "cta": "Solicitar Demo"
+  },
+  "hero": {
+    "tag": "GERARD — Generative Research And Rapid Development",
+    "title": "De semanas de investigación a insights en horas",
+    "subtitle": "La investigación de mercado tradicional tarda 4-8 semanas y cuesta 50K€-200K€. GERARD ofrece I+D de nivel enterprise a 10x la velocidad y 10x menos coste—impulsado por personas sintéticas, IA multi-agente y el probado motor GEORadar.",
+    "buttons": [
+      {"text": "Solicitar Demo", "href": "#contact", "variant": "primary"},
+      {"text": "Ver Cómo Funciona", "href": "#how-it-works", "variant": "secondary"},
+      {"text": "Explorar Tecnología", "href": "https://georadar.app", "variant": "secondary"}
+    ],
+    "trustedBy": "Desarrollado sobre tecnología GEORadar, con la confianza de clientes enterprise"
+  },
+  "sections": {
+    "benefits": {
+      "tag": "Qué Hace GERARD Por Ti",
+      "title": "I+D que se mueve a la velocidad de tu negocio",
+      "subtitle": "Personas sintéticas + Validación real + Inteligencia GEORadar = Research en el que puedes confiar, entregado rápido",
+      "features": [
+        {
+          "icon": "⚡",
+          "title": "10x Más Rápido",
+          "description": "Lo que las consultoras tradicionales tardan 4-8 semanas, GERARD lo entrega en 24-48 horas. Orquestación multi-agente ejecuta streams de investigación en paralelo mientras tú te enfocas en las decisiones."
+        },
+        {
+          "icon": "💰",
+          "title": "10x Menos Coste",
+          "description": "Research enterprise a precios de mercado medio. Proyectos que cuestan 50K€-200K€ con firmas tradicionales ahora van de 5K€-35K€. Calidad Fortune 500, democratizada."
+        },
+        {
+          "icon": "🎯",
+          "title": "Personas Sintéticas Validadas",
+          "description": "No son alucinaciones de IA. Las personas sintéticas de GERARD están validadas contra datos reales, combinando la velocidad de la simulación con el rigor de los métodos tradicionales."
+        }
+      ],
+      "metricsTitle": "Métricas de impacto real",
+      "metrics": [
+        {"label": "Tiempo a Insight", "value": "24-48h", "comparison": "vs 4-8 semanas"},
+        {"label": "Coste por Proyecto", "value": "5K€-35K€", "comparison": "vs 50K€-200K€"},
+        {"label": "LLMs Monitorizados", "value": "15+", "comparison": "vía GEORadar"}
+      ]
+    },
+    "differential": {
+      "tag": "Por Qué GERARD Es Diferente",
+      "title": "De I+D como apuesta a I+D como ciencia",
+      "items": [
+        {
+          "title": "ADN GEO Integrado",
+          "description": "GERARD es la única plataforma que combina Generative Engine Optimization con investigación de mercado. Potenciado por los 15+ modelos LLM de GEORadar y 8 métricas propietarias, entendemos cómo la IA interpreta tu mercado."
+        },
+        {
+          "title": "Enterprise-Grade Desde el Día Uno",
+          "description": "No es un juguete B2C. GERARD sirve a clientes bancarios como Sabadell, CaixaBank y Adeslas. SLA Enterprise, preparado para SOC2, diseñado para industrias reguladas."
+        },
+        {
+          "title": "IA Europea, GDPR por Diseño",
+          "description": "Infraestructura alojada en la UE, cumplimiento GDPR por diseño. Soporte local en español, inglés y alemán. Construido para empresas europeas, por una empresa europea."
+        },
+        {
+          "title": "Metodología de Validación Híbrida",
+          "description": "Velocidad sintética con rigor real. Cada insight tiene puntuación de confianza, validación contra muestras reales y citación de fuentes. Sin cajas negras."
+        },
+        {
+          "title": "Inteligencia Continua",
+          "description": "No solo proyectos puntuales. GERARD monitoriza tu panorama competitivo 24/7, entregando alertas proactivas e insights predictivos antes de que preguntes."
+        }
+      ]
+    },
+    "howItWorks": {
+      "tag": "Cómo Funciona GERARD",
+      "title": "De pregunta a insight validado en 3 pasos",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Define Tu Pregunta de Investigación",
+          "description": "Dile a GERARD qué necesitas saber—oportunidad de mercado, análisis de competencia, customer personas o validación de producto. Nuestro planificador multi-agente estructura el enfoque de investigación óptimo."
+        },
+        {
+          "number": "2",
+          "title": "Los Agentes IA Ejecutan la Investigación",
+          "description": "Agentes especializados trabajan en paralelo: recolectores recopilan datos, analizadores extraen patrones, personas sintéticas simulan focus groups. Todo validado mediante RAG e inteligencia GEORadar."
+        },
+        {
+          "number": "3",
+          "title": "Recibe Insights Accionables",
+          "description": "No solo datos—recomendaciones. GERARD entrega insights con puntuación de confianza, citaciones, mapas de posicionamiento competitivo y próximos pasos específicos. Listo para tu presentación al consejo."
+        }
+      ],
+      "integration": {
+        "title": "Potenciado por la Suite GEORadar",
+        "description": "GERARD se integra perfectamente con GEORadar, S.A.M. (Semantic Alignment Machine) y Prompt Atlas. El stack de inteligencia completo de 498AS.",
+        "link": "https://georadar.app"
+      }
+    },
+    "engine": {
+      "tag": "Bajo el Capó",
+      "title": "I+D con esteroides: El entorno de simulación que siempre soñaste",
+      "subtitle": "GERARD transforma datos masivos de mercado en inteligencia accionable a través de una metodología rigurosa, potenciada por IA, que democratiza el I+D de nivel enterprise.",
+      "stages": [
+        {
+          "number": "1",
+          "title": "Ingesta de Datos de Mercado",
+          "description": "Agregamos datos de mercado de múltiples fuentes: datasets públicos, informes del sector, social listening, feeds de inteligencia competitiva e inteligencia propietaria de GEORadar.",
+          "metric": "500K+ data points",
+          "metricLabel": "15+ tipos de fuentes"
+        },
+        {
+          "number": "2",
+          "title": "Modelado de Personas Sintéticas",
+          "description": "Generamos personas de cliente impulsadas por IA que reflejan segmentos demográficos reales, perfiles psicográficos y patrones de comportamiento—validados contra datos de mercado.",
+          "metric": "1.000+ personas",
+          "metricLabel": "87% precisión"
+        },
+        {
+          "number": "3",
+          "title": "Motor de Simulación de Mercado",
+          "description": "Ejecutamos miles de escenarios competitivos: respuestas de mercado, elasticidad de precios, proyecciones de cuota y detección de tendencias—todo en paralelo.",
+          "metric": "10.000+ simulaciones",
+          "metricLabel": "por mercado"
+        },
+        {
+          "number": "4",
+          "title": "Descubrimiento de Océanos Azules",
+          "description": "Identificamos espacios de mercado no disputados a través de análisis de gaps, detección de segmentos desatendidos y modelado TAM/SAM/SOM para cuantificar oportunidades.",
+          "metric": "TAM/SAM/SOM",
+          "metricLabel": "modelado"
+        },
+        {
+          "number": "5",
+          "title": "Diseño de Clusters de Atributos",
+          "description": "Entregamos blueprints de producto priorizados por características, propuestas de valor y estrategias go-to-market basadas en brechas de mercado validadas.",
+          "metric": "Blueprints GTM",
+          "metricLabel": "listos para ejecutar"
+        }
+      ],
+      "statement": "Esto es <strong>I+D a escala</strong>—el entorno de simulación que antes solo estaba disponible para empresas Fortune 100 con presupuestos de investigación de 10M€+. GERARD lo democratiza con inferencia de IA, haciendo que la inteligencia de mercado enterprise-grade sea accesible para cualquier equipo ambicioso."
+    },
+    "featureSet": {
+      "tag": "Funcionalidades",
+      "title": "Capacidades completas de I+D en una plataforma",
+      "features": [
+        {"title": "Personas Sintéticas", "description": "Simula focus groups y entrevistas con personas IA validadas contra demografías reales."},
+        {"title": "Research Multi-Agente", "description": "Agentes especializados colaboran: planificador, recolector, analizador y QA trabajando en paralelo."},
+        {"title": "RAG + Citaciones", "description": "Cada insight fundamentado en datos con citación completa de fuentes. Sin alucinaciones."},
+        {"title": "Puntuación de Confianza", "description": "Conoce cuán fiable es cada insight con métricas de confianza transparentes."},
+        {"title": "Inteligencia Competitiva", "description": "Rastrea competidores en 15+ modelos LLM. Sabe qué dice la IA sobre tu mercado."},
+        {"title": "Monitorización Continua", "description": "Alertas 24/7 sobre cambios de mercado, movimientos de competidores y oportunidades emergentes."},
+        {"title": "Integraciones Enterprise", "description": "Acceso API, alertas Slack, informes PDF y visualizaciones dashboard."},
+        {"title": "Multi-Idioma", "description": "Investigación e informes en español, inglés, alemán, francés y más."},
+        {"title": "Cumplimiento GDPR", "description": "Residencia de datos en UE, redacción de PII, alineado con requisitos del EU AI Act."}
+      ]
+    },
+    "testimonials": {
+      "tag": "Confianza Enterprise",
+      "title": "Lo que dicen nuestros clientes",
+      "items": [
+        {
+          "quote": "GERARD transformó nuestro proceso de inteligencia competitiva. Lo que antes tardaba 6 semanas a nuestro equipo de estrategia ahora tarda 2 días, con insights más profundos.",
+          "author": "Director de Estrategia",
+          "company": "Servicios Financieros, IBEX 35"
+        },
+        {
+          "quote": "La validación de personas sintéticas fue el game-changer. Podemos testear mensajes con 10.000 clientes simulados antes de un solo focus group real.",
+          "author": "CMO",
+          "company": "Retail Technology"
+        },
+        {
+          "quote": "Por fin, research que se mueve a la velocidad de nuestros ciclos de producto. La integración GEORadar significa que entendemos no solo qué dicen los clientes, sino cómo nos representa la IA.",
+          "author": "VP Producto",
+          "company": "Plataforma SaaS"
+        }
+      ]
+    },
+    "beforeAfter": {
+      "tag": "Antes y Después",
+      "title": "Antes y después de GERARD",
+      "before": {
+        "title": "I+D Tradicional",
+        "items": [
+          "4-8 semanas por proyecto",
+          "50K€-200K€ por estudio",
+          "Solo accesible para Fortune 500",
+          "Insights obsoletos al entregarlos",
+          "Metodología de caja negra",
+          "Solo snapshots puntuales",
+          "Insights genéricos, horizontales",
+          "Síntesis manual requerida"
+        ]
+      },
+      "after": {
+        "title": "Con GERARD",
+        "items": [
+          "24-48 horas a insights validados",
+          "5K€-35K€ por proyecto",
+          "Democratizado para mid-market",
+          "Tiempo real, siempre actualizado",
+          "Puntuación de confianza transparente",
+          "Monitorización continua 24/7",
+          "Especialización vertical con ADN GEO",
+          "Recomendaciones accionables incluidas"
+        ]
+      },
+      "footer": [
+        "De semanas a horas.",
+        "De 200K€ a 5K€.",
+        "De adivinar a saber."
+      ]
+    },
+    "useCases": {
+      "tag": "Para Quién Es GERARD",
+      "title": "Casos de uso",
+      "cases": [
+        {
+          "title": "Equipos de Estrategia e Innovación",
+          "description": "Valida oportunidades de mercado, evalúa amenazas competitivas e informa roadmaps de producto con investigación rápida y fiable."
+        },
+        {
+          "title": "Líderes de Marketing y Marca",
+          "description": "Testea mensajes, comprende customer personas y rastrea percepción de marca en plataformas IA y canales tradicionales."
+        },
+        {
+          "title": "Product Managers",
+          "description": "Desde validación de concepto hasta priorización de features. Testing de usuarios sintéticos a escala antes de comprometer recursos."
+        },
+        {
+          "title": "Agencias de Research y Consultoría",
+          "description": "Aumenta tu equipo con investigación potenciada por IA. Opciones white-label disponibles para partners de agencia."
+        },
+        {
+          "title": "Corporate Development y M&A",
+          "description": "Due diligence acelerada. Market sizing, panorama competitivo y análisis de target company en días, no meses."
+        },
+        {
+          "title": "Dirección Ejecutiva",
+          "description": "Insights listos para el consejo con puntuación de confianza. Toma decisiones estratégicas respaldadas por inteligencia validada."
+        }
+      ]
+    },
+    "faq": {
+      "tag": "FAQ",
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "question": "¿Qué es GERARD?",
+          "answer": "GERARD (Generative Research And Rapid Development) es una plataforma de I+D potenciada por IA que combina simulación de personas sintéticas, orquestación de investigación multi-agente y el motor de inteligencia GEORadar para entregar investigación de mercado enterprise-grade 10x más rápido y a 10x menos coste que los métodos tradicionales."
+        },
+        {
+          "question": "¿Cómo se relaciona GERARD con GEORadar?",
+          "answer": "GERARD está construido sobre la plataforma GEORadar de 498AS, que monitoriza 15+ modelos LLM y proporciona 8 métricas propietarias para Generative Engine Optimization. GERARD extiende esta capacidad a investigación de mercado, inteligencia competitiva y simulación de personas sintéticas."
+        },
+        {
+          "question": "¿Son fiables las personas sintéticas?",
+          "answer": "Sí. Las personas sintéticas de GERARD no son generación aleatoria de IA—están validadas contra datos demográficos reales y patrones de comportamiento. Cada insight sintético incluye una puntuación de confianza, y ofrecemos validación híbrida con confirmación de muestra real para decisiones críticas."
+        },
+        {
+          "question": "¿Cumple GERARD con GDPR?",
+          "answer": "Absolutamente. GERARD está alojado en la UE (AWS Frankfurt), cumple GDPR por diseño, con capacidades de redacción de PII y alineación con requisitos del EU AI Act. Servimos industrias reguladas incluyendo banca y healthcare."
+        },
+        {
+          "question": "¿Cuál es el coste típico de un proyecto?",
+          "answer": "Los proyectos van de 5K€-35K€ dependiendo del alcance, comparado con 50K€-200K€ de firmas de research tradicionales. También ofrecemos suscripciones mensuales desde 1.500€/mes para necesidades de investigación continua."
+        },
+        {
+          "question": "¿Cuán rápido puedo obtener resultados?",
+          "answer": "La mayoría de proyectos de investigación entregan insights validados en 24-48 horas. Estudios complejos, multi-fase pueden tardar 3-5 días. Compara esto con las 4-8 semanas típicas de firmas de research tradicionales."
+        },
+        {
+          "question": "¿Puede GERARD integrarse con nuestras herramientas existentes?",
+          "answer": "Sí. GERARD ofrece acceso REST API, integración Slack para alertas, generación de informes PDF y puede exportar a herramientas BI comunes. Los clientes enterprise obtienen soporte de integración dedicado."
+        },
+        {
+          "question": "¿Quién es 498AS?",
+          "answer": "498AS es la empresa tecnológica con sede en Barcelona detrás de GERARD, GEORadar y la suite GEO completa. Servimos clientes enterprise incluyendo grandes bancos españoles, empresas de medios y marcas retail. Más información en 498as.com."
+        }
+      ]
+    },
+    "finalCTA": {
+      "title": "Convierte I+D de semanas a horas",
+      "subtitle": "Únete a los líderes enterprise que usan GERARD para tomar decisiones más rápidas e inteligentes. Solicita una demo para ver cómo la investigación potenciada por IA transforma tu inteligencia competitiva.",
+      "buttons": [
+        {"text": "Solicitar Demo", "href": "#contact", "variant": "primary"},
+        {"text": "Explorar Tecnología", "href": "https://georadar.app", "variant": "secondary"}
+      ],
+      "note": "Enterprise-ready | Cumplimiento GDPR | Construido sobre GEORadar"
+    }
+  },
+  "footer": {
+    "logo": "GERARD",
+    "tagline": "La Plataforma de I+D Generativa",
+    "company": {
+      "name": "498AS",
+      "url": "https://498as.com",
+      "description": "Generative Engine Optimization & AI Research"
+    },
+    "products": [
+      {"name": "GEORadar", "url": "https://georadar.app"},
+      {"name": "GERARD", "url": "#"},
+      {"name": "S.A.M.", "url": "#"},
+      {"name": "Prompt Atlas", "url": "#"}
+    ],
+    "contact": {
+      "email": "hello@498as.com",
+      "location": "Barcelona, España"
+    },
+    "copyright": "© 2026 498AS. Todos los derechos reservados."
+  },
+  "langSwitcher": {
+    "current": "ES",
+    "languages": [
+      {"code": "es", "name": "Español", "url": "/"},
+      {"code": "en", "name": "English", "url": "/en/"}
+    ]
+  }
+}
