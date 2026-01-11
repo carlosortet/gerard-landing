@@ -32,6 +32,166 @@
 
   <!-- Lottie Player -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "GERARD",
+    "alternateName": "Generative Research And Rapid Development",
+    "description": "Plataforma de I+D generativa que transforma la investigación de mercado de semanas a horas mediante personas sintéticas, IA multi-agente y el motor GEORadar.",
+    "url": "https://gerard.498as.com",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "EUR",
+      "lowPrice": "5000",
+      "highPrice": "35000",
+      "offerCount": "3",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Proyecto Individual",
+          "price": "5000",
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "name": "Suscripción Mensual",
+          "price": "1500",
+          "priceCurrency": "EUR",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "price": "1500",
+            "priceCurrency": "EUR",
+            "billingDuration": "P1M"
+          }
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "42",
+      "bestRating": "5"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "498AS",
+      "url": "https://498as.com",
+      "logo": "https://gerard.498as.com/assets/favicon.svg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Barcelona",
+        "addressCountry": "ES"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hello@498as.com",
+        "contactType": "sales"
+      }
+    },
+    "featureList": [
+      "Personas sintéticas validadas",
+      "Investigación multi-agente",
+      "RAG + citaciones",
+      "Puntuación de confianza",
+      "Inteligencia competitiva",
+      "Monitorización continua 24/7",
+      "Integraciones enterprise",
+      "Multi-idioma",
+      "Cumplimiento GDPR"
+    ],
+    "screenshot": "https://gerard.498as.com/assets/gerard-logo-animated.svg",
+    "softwareHelp": {
+      "@type": "WebPage",
+      "url": "https://gerard.498as.com/#faq"
+    },
+    "isRelatedTo": {
+      "@type": "SoftwareApplication",
+      "name": "GEORadar",
+      "url": "https://georadar.app"
+    }
+  }
+  </script>
+
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "498AS",
+    "legalName": "498AS S.L.",
+    "url": "https://498as.com",
+    "logo": "https://gerard.498as.com/assets/favicon.svg",
+    "foundingDate": "2023",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barcelona",
+      "addressRegion": "Cataluña",
+      "addressCountry": "ES"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "hello@498as.com",
+      "contactType": "customer service",
+      "availableLanguage": ["Spanish", "English", "German"]
+    },
+    "sameAs": [
+      "https://georadar.app"
+    ],
+    "knowsAbout": [
+      "Generative Engine Optimization",
+      "AI Market Research",
+      "Synthetic Personas",
+      "Competitive Intelligence"
+    ]
+  }
+  </script>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué es GERARD?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "GERARD (Generative Research And Rapid Development) es una plataforma de I+D potenciada por IA que combina simulación de personas sintéticas, orquestación de investigación multi-agente y el motor de inteligencia GEORadar para entregar investigación de mercado enterprise-grade 10x más rápido y a 10x menos coste que los métodos tradicionales."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuál es el coste típico de un proyecto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Los proyectos van de 5K€-35K€ dependiendo del alcance, comparado con 50K€-200K€ de firmas de research tradicionales. También ofrecemos suscripciones mensuales desde 1.500€/mes para necesidades de investigación continua."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuán rápido puedo obtener resultados?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La mayoría de proyectos de investigación entregan insights validados en 24-48 horas. Estudios complejos, multi-fase pueden tardar 3-5 días. Compara esto con las 4-8 semanas típicas de firmas de research tradicionales."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cumple GERARD con GDPR?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutamente. GERARD está alojado en la UE (AWS Frankfurt), cumple GDPR por diseño, con capacidades de redacción de PII y alineación con requisitos del EU AI Act. Servimos industrias reguladas incluyendo banca y healthcare."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
